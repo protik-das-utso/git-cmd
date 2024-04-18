@@ -10,19 +10,20 @@
 #### Add code in git if repo created
 create a new repository on the command line
 
-echo "# git-test" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/protik-das-utso/git-test.git
-git push -u origin main
+`echo "# git-test" >> README.md`<br>
+`git init`<br>
+`git add README.md`<br>
+`git commit -m "first commit"`<br>
+`git branch -M main`<br>
+`git remote add origin https://github.com/protik-das-utso/git-test.git`<br>
+`git push -u origin main`<br>
 
 
 #### push an existing repository from the command line
-git remote add origin https://github.com/protik-das-utso/git-test.git
-git branch -M main
-git push -u origin main
+
+`git remote add origin https://github.com/protik-das-utso/git-test.git`<br>
+`git branch -M main`<br>
+`git push -u origin main`<br>
 
 
 ### Basic Snapshotting
