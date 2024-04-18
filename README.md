@@ -7,6 +7,24 @@
 | `git init` | Initialize a local Git repository |
 | `git clone ssh://git@github.com/[username]/[repository-name].git` | Create a local copy of a remote repository |
 
+#### Add code in git if repo created
+create a new repository on the command line
+
+echo "# git-test" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/protik-das-utso/git-test.git
+git push -u origin main
+
+
+#### push an existing repository from the command line
+git remote add origin https://github.com/protik-das-utso/git-test.git
+git branch -M main
+git push -u origin main
+
+
 ### Basic Snapshotting
 
 | Command | Description |
